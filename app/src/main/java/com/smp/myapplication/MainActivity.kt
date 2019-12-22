@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
             isActive = true
             setMetadata(md)
             setPlaybackState(playbackState)
-            isActive = true
         }
         ContextCompat.startForegroundService(this, Intent(this, MyService::class.java))
     }
